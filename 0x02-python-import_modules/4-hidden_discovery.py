@@ -4,4 +4,4 @@ if __name__ == "__main__":
     mods = dir(hidden_4)
     for s in mods:
         if s[:2] != '__':
-            print("{:s}".format(i))
+            print("{:s}".format(s))
